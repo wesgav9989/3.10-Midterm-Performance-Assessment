@@ -46,3 +46,25 @@ table {
   width: 100%;
   border-collapse: collapse;
 }
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 12px;
+}
+
+thead {
+  background-color: #444;
+  color: #ffffff;
+}
+
+th,
+td {
+  text-align: left;
+}
+
+tfoot {
+  text-align: center;
+  font-style: italic;
+  border-top: 1px solid #ccc;
+}
